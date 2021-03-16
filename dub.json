@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Martin Brzenska"
+	],
+	"copyright": "Copyright © 2021, Martin Brzenska",
+	"description": "A tiny log aggregation command-line tool",
+	"license": "MIT",
+	"name": "logpopler"
+}

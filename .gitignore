@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/logpopler
+logpopler.so
+logpopler.dylib
+logpopler.dll
+logpopler.a
+logpopler.lib
+logpopler-test-*
+*.exe
+*.o
+*.obj
+*.lst
