@@ -152,8 +152,8 @@ struct Opts {
 		try {
 			this.r = getopt(
 				args,
-				"select", "Defines which of the Group(s) from the RegExp-matches will be printed to stdout.", &this.Select,
-				"by", "Defines BY which Capturing group(s) the aggregation will happen.", &this.By,
+				"select", "SELECT the group(s) from the RegExp-matches will be printed to stdout.", &this.Select,
+				"by", "Defines BY which capturing group(s) the aggregation will happen.", &this.By,
 				"min", "Output threshold - At least $min hits must be aggregated until it get printed to stdout.", &this.Min,
 				"show-count", "Shows the hit count for each match as the first column of the output.", &this.ShowCount,
 			);
@@ -166,7 +166,7 @@ struct Opts {
 			defaultGetoptPrinter(
 				format!(
 					"usage: %s [ARGS] <RegExp> \n\n"~
-					"A tiny log aggregation command-line tool.\n\n"~
+					"A tiny log analyser command-line tool.\n\n"~
 					"[ARGS]:\n"
 				)(args[0]),
 				this.r.options
